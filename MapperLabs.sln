@@ -1,0 +1,59 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.10.35122.118
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{F77F8560-6E59-4A77-B9DD-D0500BCA952B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MapperLabs", "src\MapperLabs\MapperLabs.csproj", "{DAAB4FBD-1C85-4FD3-A1BB-E7221B9993F0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{DC4F63C4-05C6-4FB5-AC72-593F49D8F1C0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MapperLabs.Tests", "tests\MapperLabs.Tests\MapperLabs.Tests.csproj", "{CA9DFC84-A3A3-416B-B23A-4483B7F39D11}"
+EndProject
+Global
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F0A691ED-4EA0-4759-9D11-BA36B36D847F}
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DAAB4FBD-1C85-4FD3-A1BB-E7221B9993F0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DAAB4FBD-1C85-4FD3-A1BB-E7221B9993F0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DAAB4FBD-1C85-4FD3-A1BB-E7221B9993F0}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{DAAB4FBD-1C85-4FD3-A1BB-E7221B9993F0}.Debug|x64.Build.0 = Debug|Any CPU
+		{DAAB4FBD-1C85-4FD3-A1BB-E7221B9993F0}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{DAAB4FBD-1C85-4FD3-A1BB-E7221B9993F0}.Debug|x86.Build.0 = Debug|Any CPU
+		{DAAB4FBD-1C85-4FD3-A1BB-E7221B9993F0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DAAB4FBD-1C85-4FD3-A1BB-E7221B9993F0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DAAB4FBD-1C85-4FD3-A1BB-E7221B9993F0}.Release|x64.ActiveCfg = Release|Any CPU
+		{DAAB4FBD-1C85-4FD3-A1BB-E7221B9993F0}.Release|x64.Build.0 = Release|Any CPU
+		{DAAB4FBD-1C85-4FD3-A1BB-E7221B9993F0}.Release|x86.ActiveCfg = Release|Any CPU
+		{DAAB4FBD-1C85-4FD3-A1BB-E7221B9993F0}.Release|x86.Build.0 = Release|Any CPU
+		{CA9DFC84-A3A3-416B-B23A-4483B7F39D11}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CA9DFC84-A3A3-416B-B23A-4483B7F39D11}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CA9DFC84-A3A3-416B-B23A-4483B7F39D11}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{CA9DFC84-A3A3-416B-B23A-4483B7F39D11}.Debug|x64.Build.0 = Debug|Any CPU
+		{CA9DFC84-A3A3-416B-B23A-4483B7F39D11}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{CA9DFC84-A3A3-416B-B23A-4483B7F39D11}.Debug|x86.Build.0 = Debug|Any CPU
+		{CA9DFC84-A3A3-416B-B23A-4483B7F39D11}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CA9DFC84-A3A3-416B-B23A-4483B7F39D11}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CA9DFC84-A3A3-416B-B23A-4483B7F39D11}.Release|x64.ActiveCfg = Release|Any CPU
+		{CA9DFC84-A3A3-416B-B23A-4483B7F39D11}.Release|x64.Build.0 = Release|Any CPU
+		{CA9DFC84-A3A3-416B-B23A-4483B7F39D11}.Release|x86.ActiveCfg = Release|Any CPU
+		{CA9DFC84-A3A3-416B-B23A-4483B7F39D11}.Release|x86.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{DAAB4FBD-1C85-4FD3-A1BB-E7221B9993F0} = {F77F8560-6E59-4A77-B9DD-D0500BCA952B}
+		{CA9DFC84-A3A3-416B-B23A-4483B7F39D11} = {DC4F63C4-05C6-4FB5-AC72-593F49D8F1C0}
+	EndGlobalSection
+EndGlobal

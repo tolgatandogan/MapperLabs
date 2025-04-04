@@ -1,0 +1,26 @@
+# MapperLabs 🚀
+
+[![NuGet Version](https://img.shields.io/nuget/v/MapperLabs.svg?style=flat)](https://www.nuget.org/packages/MapperLabs)
+[![NuGet Downloads](https://img.shields.io/nuget/dt/MapperLabs.svg)](https://www.nuget.org/packages/MapperLabs)
+[![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
+
+**MapperLabs**, .NET uygulamalarınız için yüksek performanslı ve esnek bir nesne eşleme kütüphanesidir. Reflection kullanmadan **Expression Trees** ve **IL Emit** ile çalışarak maksimum performans sağlar.
+
+![Demo](https://raw.githubusercontent.com/tolgatandogan/MapperLabs/main/docs/demo.gif)
+
+---
+
+## 🌟 Temel Özellikler
+| Özellik | Açıklama |
+|---------|----------|
+| ⚡ **Sıfır Reflection** | Expression Trees ve Dynamic Method optimizasyonu |
+| 🛠 **Fluent API** | Okunabilir ve zincirleme konfigürasyon |
+| 🔄 **Case-Insensitive** | `UserName` ↔ `username` otomatik eşleme |
+| 📦 **DI Desteği** | ASP.NET Core entegrasyonu ile kullanım kolaylığı |
+| 🧩 **Nested Mapping** | İç içe nesnelerde otomatik derin eşleme |
+
+---
+
+## 📦 Kurulum
+```bash
+dotnet add package MapperLabs
